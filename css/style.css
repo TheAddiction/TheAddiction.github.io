@@ -283,6 +283,7 @@ ol {
 .header-warp {
 	max-width: 1496px;
 	margin: 0 auto;
+	padding-top: 50px;
 }
 
 .header-social p,
@@ -325,10 +326,10 @@ ol {
 }
 
 .header-bar-warp {
-	background: #081624;
-	padding: 39px 40px 0;
-	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
-	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
+	background: #020202;
+	padding: 29px 50px 5px;
+	-webkit-box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
+	box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
 }
 
 .site-logo {
@@ -513,8 +514,8 @@ ol {
 
 .hero-item {
 	height: 921px;
-	padding-top: 125px;
-	border-bottom: 2px solid #b01ba5;
+	padding-top: 15px;
+	border-bottom: 2px solid rgb(34, 34, 34);
 }
 
 .hero-item h2 {
@@ -995,14 +996,14 @@ ol {
 .footer-section {
 	text-align: center;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#330d38+0,190d36+100 */
-	background: #330d38;
+	background: #000;
 	/* Old browsers */
 	/* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #330d38 0%, #190d36 100%);
+	background: -webkit-linear-gradient(left, #000 0%, #000 100%);
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#330d38), to(#190d36));
-	background: -o-linear-gradient(left, #330d38 0%, #190d36 100%);
-	background: linear-gradient(to right, #330d38 0%, #190d36 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
+	background: -o-linear-gradient(left, #000 0%, #000 100%);
+	background: linear-gradient(to right, #000 40%, #7a3100 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330d38', endColorstr='#190d36', GradientType=1);
 	/* IE6-9 */
@@ -1010,7 +1011,7 @@ ol {
 
 .footer-section .container {
 	position: relative;
-	padding: 60px 15px 25px;
+	padding: 40px 15px 25px;
 }
 
 .footer-left-pic {
