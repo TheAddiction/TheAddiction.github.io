@@ -274,7 +274,10 @@ ol {
 	left: 0;
 	top: 0;
 	z-index: 99;
-	padding: 15px 15px 0;
+	padding: 14px 55px 0;
+}
+.body-bg {
+	background-color: #000;
 }
 
 .header-warp {
@@ -515,7 +518,7 @@ ol {
 }
 
 .hero-item h2 {
-	font-size: 160px;
+	font-size: 100px;
 	color: #fff;
 	font-weight: 500;
 	line-height: 1;
