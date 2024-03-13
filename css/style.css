@@ -108,6 +108,15 @@ ol {
 	text-transform: uppercase;
 }
 
+.bg-dark {
+	background-color: #000 !important;
+	-webkit-box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
+	box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
+}
+
+.navbar {
+	align-items: center !important;
+}
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -1632,14 +1641,6 @@ ol {
 	}
 	.main-menu.primary-menu {
 		display: none;
-	}
-	.slicknav_menu {
-		display: block;
-		background: #081624;
-	}
-	.slicknav_btn {
-		margin-right: 10px;
-		background: #3a3a3a;
 	}
 	.slicknav_nav a:hover,
 	.slicknav_nav .slicknav_row:hover {

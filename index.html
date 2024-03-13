@@ -42,29 +42,38 @@
 
 	<!-- Header section -->
 	<header class="header-section">
-		<div class="header-warp">
-			<div class="header-bar-warp d-flex">
-				<!-- site logo -->
-				<a href="home.html" class="site-logo">
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+				<!-- NavBar logo -->
+				<a href="home.html" class="site-logo navbar-brand">
 					<img src="./img/logo.png" alt="">
 				</a>
-				<nav class="top-nav-area w-100">
-					<!-- Menu -->
-					<ul class="main-menu primary-menu">
-						<li><a href="home.html">Home</a></li>
-						<li><a href="games.html">Store</a></li>
-						<li><a href="review.html">Servers</a>
-							<ul class="sub-menu">
-								<li><a href="game-single.html">Rust Servers</a></li>
-								<li><a href="game-single.html">Minecraft Servers</a></li>
-								<li><a href="game-single.html">Dayz Servers</a></li>
-								<li><a href="game-single.html">PalWorld Servers</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
+				<!-- NavBar button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- NavBar bulk -->
+				<div class="collapse navbar-collapse " id="navbarNavDropdown">
+				  <ul class="navbar-nav ">
+					<li class="nav-item active">
+					  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Store</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Servers
+					  </a>
+					  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Rust Servers</a>
+						<a class="dropdown-item" href="#">Minecraft Servers</a>
+						<a class="dropdown-item" href="#">Dayz Servers</a>
+						<a class="dropdown-item" href="#">PalWorld Servers</a>
+					  </div>
+					</li>
+				  </ul>
+				</div>
+			  </nav>
 		</div>
 	</header>
 	<!-- Header section end -->
