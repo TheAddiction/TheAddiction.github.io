@@ -110,13 +110,8 @@ ol {
 
 .bg-dark {
 	background-color: #000 !important;
-	-webkit-box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
-	box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
 }
 
-.navbar {
-	align-items: center !important;
-}
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -287,6 +282,18 @@ ol {
 }
 .body-bg {
 	background-color: #000;
+}
+
+.navbar-boxshadow {
+	padding-top: 5px;
+	margin-top: 50px;
+	-webkit-box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
+	box-shadow: 0 0 9px 3px rgba(168, 76, 0, 0.24);
+}
+
+.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .header-warp {
