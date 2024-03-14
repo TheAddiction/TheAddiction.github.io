@@ -109,7 +109,17 @@ ol {
 }
 
 .bg-dark {
-	background-color: #000 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
+	background: #000000 !important;
+	/* Old browsers */
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #000000 0%, #000000 100%) !important;
+	/* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(45deg, #000000 0%, #000000 100%) !important;
+	background: linear-gradient(45deg, #000000 0%, #000000 100%) !important;
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1) !important;
+	/* IE6-9 fallback on horizontal gradient */
 }
 
 /*---------------------
@@ -948,54 +958,8 @@ ol {
 }
 
 .gradient-bg,
-.newsletter-section {
-	background: #3e0f3d;
-	/* Old browsers */
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #3e0f3d 0%, #1c0f3b 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#3e0f3d), to(#1c0f3b));
-	background: -o-linear-gradient(left, #3e0f3d 0%, #1c0f3b 100%);
-	background: linear-gradient(to right, #3e0f3d 0%, #1c0f3b 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e0f3d', endColorstr='#1c0f3b', GradientType=1);
-	/* IE6-9 */
-}
 
-/* --------------------
-  Newsletter section
-----------------------*/
 
-.newsletter-section {
-	padding: 108px 0 95px;
-	text-align: center;
-}
-
-.newsletter-section h2 {
-	font-size: 48px;
-	color: #fff;
-	font-weight: 700;
-	font-style: italic;
-	text-transform: uppercase;
-	margin-bottom: 73px;
-}
-
-.newsletter-form {
-	padding-left: 56px;
-}
-
-.newsletter-form input {
-	font-size: 14px;
-	font-weight: 700;
-	font-style: italic;
-	color: #fff;
-	width: 787px;
-	border: none;
-	border-bottom: 2px solid #9b91a6;
-	background: none;
-	height: 63px;
-	margin-right: 26px;
-}
 
 /* ----------------
   Footer section
@@ -1232,17 +1196,7 @@ ol {
 .blog-page,
 .contact-page {
 	padding: 104px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
-	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
+	margin-top: 100px;
 }
 
 .game-single-preview {
