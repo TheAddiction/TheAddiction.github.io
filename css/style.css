@@ -126,6 +126,12 @@ ol {
 	/* IE6-9 fallback on horizontal gradient */
 }
 
+
+#frame {
+	height: auto;
+	width: auto;
+	position: relative;
+ }
 /*---------------------
   Helper CSS
 -----------------------*/
